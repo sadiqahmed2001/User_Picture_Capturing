@@ -8,7 +8,7 @@ def take_picture(file_name="user_picture.jpg"):
         print("Error: Unable to access the webcam.")
         return
 
-    # Capture a frame from the webcam
+    # Capture a frame from the webcam  
     ret, frame = cap.read()
 
     if not ret:
