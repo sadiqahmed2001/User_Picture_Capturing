@@ -1,4 +1,4 @@
-import cv2
+import cv2  
 
 def take_picture(file_name="user_picture.jpg"):
     cap = cv2.VideoCapture(0)
